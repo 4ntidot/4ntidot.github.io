@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir, sans-serif;
+}
+
+:root {
+	--text: #0f172a;
+	--background: #f8fafc;
+}
+
+
+header {
+	background-color: var(--background-accent);
+	padding: 16px;
+	text-align: center;
+}
