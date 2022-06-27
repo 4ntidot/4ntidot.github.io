@@ -8,6 +8,7 @@
 	--text: #0f172a;
 	--background: #f8fafc;
 	--background-accent: #f1f5f9;
+	--primary: #0083e2;
 }
 
 
@@ -25,4 +26,25 @@ header {
 .section {
 	background-color: var(--background);
 	padding: 32px;
+}
+.progress-bar {
+	height: 24px;
+	width: 160px;
+	background-color: var(--background-accent);
+	border-radius: 4px;
+	margin: 4px 0;
+}
+.progress-bar > .progress {
+	height: 24px;
+	background-color: var(--primary);
+	color: #ffffff;
+	border-radius: 4px;
+}
+.progress > span {
+	font-size: 16px;
+	padding-left: 4px;
+}
+.progress > * {
+	max-height: 16px;
+	vertical-align: -2px;
 }
