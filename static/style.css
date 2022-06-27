@@ -20,7 +20,7 @@ header {
 	height: 128px;
 	width: 128px;
 	border-radius: 50%;
-	-webkit-filter: drop-shadow(0 16px 32px var(--background-accent));
+	-webkit-filter: drop-shadow(0 8px 32px #e2e8f0);
 }
 .section {
 	background-color: var(--background);
