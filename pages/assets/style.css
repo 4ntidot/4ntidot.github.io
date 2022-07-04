@@ -10,6 +10,12 @@
 	--background-accent: #f1f5f9;
 	--primary: #0083e2;
 }
+@media (prefers-color-scheme: dark)  {
+	--text: white;
+	--background: #0f172a;
+	--background-accent: #1e293b;
+} 
+ 
 
 
 header {
@@ -54,8 +60,3 @@ header {
 		padding: 32px;
 	}
 }
-@media (prefers-color-scheme: dark)  {
-	--text: white;
-	--background: #0f172a;
-	--background-accent: #1e293b;
-} 
