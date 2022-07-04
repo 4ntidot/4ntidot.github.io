@@ -16,11 +16,15 @@
 		--background: #0f172a;
 		--background-accent: #1e293b;
 	} 
+	#pfp { 
+		-webkit-filter: drop-shadow(0 8px 32px #334155);
+	} 
 }
  
 
 
 header {
+	color: var(--text);
 	background-color: var(--background-accent);
 	padding: 16px;
 	text-align: center;
@@ -32,6 +36,7 @@ header {
 	-webkit-filter: drop-shadow(0 8px 32px #e2e8f0);
 }
 .section {
+	color: var(--text);
 	background-color: var(--background);
 	padding: 32px;
 }
