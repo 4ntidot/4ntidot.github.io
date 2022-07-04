@@ -48,3 +48,14 @@ header {
 	max-height: 16px;
 	vertical-align: -2px;
 }
+
+@media only screen and (max-width:640px) {
+	header {
+		padding: 32px;
+	}
+}
+@media (prefers-color-scheme: dark)  {
+	--text: white;
+	--background: #0f172a;
+	--background-accent: #1e293b;
+} 
