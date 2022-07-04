@@ -11,10 +11,12 @@
 	--primary: #0083e2;
 }
 @media (prefers-color-scheme: dark)  {
-	--text: white;
-	--background: #0f172a;
-	--background-accent: #1e293b;
-} 
+	:root {
+		--text: white;
+		--background: #0f172a;
+		--background-accent: #1e293b;
+	} 
+}
  
 
 
