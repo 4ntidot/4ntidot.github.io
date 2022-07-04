@@ -16,9 +16,6 @@
 		--background: #0f172a;
 		--background-accent: #1e293b;
 	} 
-	#pfp { 
-		-webkit-filter: drop-shadow(0 8px 32px #334155);
-	} 
 }
  
 
@@ -34,7 +31,8 @@ header {
 	width: 128px;
 	border-radius: 50%;
 	-webkit-filter: drop-shadow(0 8px 32px #e2e8f0);
-}
+} 
+@media (prefers-color-scheme: dark) {#pfp { -webkit-filter: drop-shadow(0 8px 32px #334155);} } 
 .section {
 	color: var(--text);
 	background-color: var(--background);
